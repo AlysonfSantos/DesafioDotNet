@@ -24,7 +24,8 @@ namespace ProjetoLoja.Infra.Data.EF.Maps
             builder.Property(x => x.DataCriacao)
                 .IsRequired();
 
-            builder.Property(x => x.DataUpdate);
+            builder.Property(x => x.DataUpdate)
+                .IsRequired();
         }
     }
 }

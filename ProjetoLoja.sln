@@ -9,15 +9,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{01
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9655D817-97A6-49C7-ACAC-70617375EE46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoLoja.Api", "ProjetoLoja.Api\ProjetoLoja.Api.csproj", "{081ED440-C0D2-4F0D-A09E-0B5D0FD84B8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoLoja.Api", "ProjetoLoja.Api\ProjetoLoja.Api.csproj", "{081ED440-C0D2-4F0D-A09E-0B5D0FD84B8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoLoja.Infra.Data", "ProjetoLoja.Infra.Data\ProjetoLoja.Infra.Data.csproj", "{0DBE921E-17BB-485F-8063-F42A85170908}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoLoja.Infra.Data", "ProjetoLoja.Infra.Data\ProjetoLoja.Infra.Data.csproj", "{0DBE921E-17BB-485F-8063-F42A85170908}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoLoja.Application", "ProjetoLoja.Application\ProjetoLoja.Application.csproj", "{CE93F799-3929-4804-A0DB-631E134AEA8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoLoja.Application", "ProjetoLoja.Application\ProjetoLoja.Application.csproj", "{CE93F799-3929-4804-A0DB-631E134AEA8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoLoja.Domain", "ProjetoLoja.Domain\ProjetoLoja.Domain.csproj", "{4EF98E08-F686-48D4-9998-9FE1C4131A76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoLoja.Domain", "ProjetoLoja.Domain\ProjetoLoja.Domain.csproj", "{4EF98E08-F686-48D4-9998-9FE1C4131A76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoLoja.Infra.IoC", "ProjetoLoja.Infra.IoC\ProjetoLoja.Infra.IoC.csproj", "{DD1C9673-261E-4FE3-A023-F7B66AD77CE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoLoja.Infra.IoC", "ProjetoLoja.Infra.IoC\ProjetoLoja.Infra.IoC.csproj", "{DD1C9673-261E-4FE3-A023-F7B66AD77CE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E460DF58-D9B3-4D68-A833-DD41013C0312}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

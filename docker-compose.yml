@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+
+  sqldata:
+    image: mcr.microsoft.com/mssql/server:2017-latest 
+    container_name: sql-server-db
+    environment:
+      - SA_PASSWORD=Pass@word
+      - ACCEPT_EULA=Y
+    ports:
+      - "5433:1433"
+
+  ProjetoLoja-Api:
+    image: ${DOCKER_REGISTRY-}ProjetoLoja.Api
+    restart: on-failure
+    build:
+      context: .
+      dockerfile: ProjetoLoja.Api/Dockerfile
+    depends_on:
+      - sqldata
