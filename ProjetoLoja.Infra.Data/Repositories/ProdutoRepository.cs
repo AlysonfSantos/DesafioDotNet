@@ -19,7 +19,7 @@ namespace ProjetoLoja.Infra.Data.Repositories
 
         public async Task<IEnumerable<Produto>> ListarProdutos()
         {
-            return await _context.Produtos.ToListAsync();
+            return await _context.Produtos.OrderBy(x=> x.DataCriacao).ToListAsync();
         }
         public async Task<Produto> ProdutoId(long id)
         {
